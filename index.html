@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delimitation Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#eef2f7,#d9e3f0);
+  color:#222;
+}
+
+.header {
+  text-align:center;
+  padding:40px 20px;
+}
+
+.header h1 {
+  margin:0;
+  font-size:32px;
+}
+
+.header p {
+  margin-top:10px;
+  font-size:16px;
+  opacity:0.8;
+}
+
+.container {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+  padding:20px;
+}
+
+.card {
+  background:#fff;
+  border-radius:16px;
+  padding:20px;
+  width:300px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-top:0;
+}
+
+.card ul {
+  padding-left:18px;
+}
+
+.btn {
+  display:block;
+  text-align:center;
+  margin-top:15px;
+  padding:10px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.btn-primary {
+  background:#1976d2;
+  color:white;
+}
+
+.btn-primary:hover {
+  background:#125aa0;
+}
+
+.btn-secondary {
+  background:#00c853;
+  color:white;
+}
+
+.btn-secondary:hover {
+  background:#009624;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>🇮🇳 Delimitation Reality Dashboard</h1>
+  <p>Interactive visualization of seat redistribution across India</p>
+</div>
+
+<div class="container">
+
+  <div class="card">
+    <h2>🔹 Version 1.0</h2>
+    <p>Baseline model with static interaction</p>
+    <ul>
+      <li>Hover-based metrics</li>
+      <li>Uniform model comparison</li>
+    </ul>
+    <a href="./v1/" class="btn btn-primary">Open Map</a>
+  </div>
+
+  <div class="card">
+    <h2>✨ Version 1.1</h2>
+    <p>Improved visualization with animations</p>
+    <ul>
+      <li>Animated top gainers & losers</li>
+      <li>Corrected gain/loss indicators</li>
+      <li>Auto metric display</li>
+    </ul>
+    <a href="./v1.1/" class="btn btn-secondary">Explore New Version</a>
+  </div>
+
+</div>
+
+</body>
+</html>
